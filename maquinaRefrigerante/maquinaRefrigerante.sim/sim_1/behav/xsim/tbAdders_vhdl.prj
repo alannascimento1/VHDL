@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../maquinaRefrigerante.srcs/sources_1/new/somador.vhd" \
+"../../../../maquinaRefrigerante.srcs/sources_1/new/tbAdders.vhd" \
+
+# Do not sort compile order
+nosort

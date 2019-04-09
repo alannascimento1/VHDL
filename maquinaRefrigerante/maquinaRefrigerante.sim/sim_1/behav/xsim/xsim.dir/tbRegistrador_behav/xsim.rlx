@@ -1,0 +1,12 @@
+
+{ 
+    crc :  7839286618871697136  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 87410c2259b84c778fc209a7dbe5ba6e --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot tbRegistrador_behav xil_defaultlib.tbRegistrador" , 
+    buildDate : "Dec 15 2017" , 
+    buildTime : "20:57:24" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/tbRegistrador_behav/xsimk\"   \"xsim.dir/tbRegistrador_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/tbRegistrador_behav/obj/xsim_1.lnx64.o\" \"/home/alan/Vivado/Vivado/2017.4/lib/lnx64.o/librdi_simulator_kernel.so\" \"/home/alan/Vivado/Vivado/2017.4/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
