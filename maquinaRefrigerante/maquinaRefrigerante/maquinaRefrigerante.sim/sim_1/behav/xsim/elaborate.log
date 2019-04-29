@@ -1,0 +1,7 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /home/alan/Vivado/Vivado/2017.4/bin/unwrapped/lnx64.o/xelab -wto 87410c2259b84c778fc209a7dbe5ba6e --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot maquinaRefri_behav xil_defaultlib.maquinaRefri -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

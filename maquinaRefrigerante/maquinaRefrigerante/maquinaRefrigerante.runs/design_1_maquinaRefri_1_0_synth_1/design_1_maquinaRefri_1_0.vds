@@ -1,0 +1,290 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr 15 11:56:51 2019
+# Process ID: 10228
+# Current directory: /home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.runs/design_1_maquinaRefri_1_0_synth_1
+# Command line: vivado -log design_1_maquinaRefri_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_maquinaRefri_1_0.tcl
+# Log file: /home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.runs/design_1_maquinaRefri_1_0_synth_1/design_1_maquinaRefri_1_0.vds
+# Journal file: /home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.runs/design_1_maquinaRefri_1_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_maquinaRefri_1_0.tcl -notrace
+Command: synth_design -top design_1_maquinaRefri_1_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10242 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1256.336 ; gain = 81.996 ; free physical = 1098 ; free virtual = 4813
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_maquinaRefri_1_0' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/bd/design_1/ip/design_1_maquinaRefri_1_0/synth/design_1_maquinaRefri_1_0.vhd:68]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'maquinaRefri' declared at '/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/maquinaRefri.vhd:34' bound to instance 'U0' of component 'maquinaRefri' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/bd/design_1/ip/design_1_maquinaRefri_1_0/synth/design_1_maquinaRefri_1_0.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'maquinaRefri' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/maquinaRefri.vhd:45]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'controlador' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/controlador.vhd:45]
+WARNING: [Synth 8-614] signal 'c' is read in the process but is not in the sensitivity list [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/controlador.vhd:69]
+WARNING: [Synth 8-614] signal 'tot_lt_s' is read in the process but is not in the sensitivity list [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/controlador.vhd:69]
+WARNING: [Synth 8-614] signal 'get' is read in the process but is not in the sensitivity list [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/controlador.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'controlador' (1#1) [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/controlador.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'datapath' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/datapath.vhd:44]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'registrador' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/registrador.vhd:43]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'registrador' (2#1) [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/registrador.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'somador' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/somador.vhd:42]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'somador' (3#1) [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/somador.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'comp_lt' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/comp_lt.vhd:42]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comp_lt' (4#1) [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/comp_lt.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (5#1) [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/datapath.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'maquinaRefri' (6#1) [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/maquinaRefri.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'design_1_maquinaRefri_1_0' (7#1) [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/bd/design_1/ip/design_1_maquinaRefri_1_0/synth/design_1_maquinaRefri_1_0.vhd:68]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1298.867 ; gain = 124.527 ; free physical = 1111 ; free virtual = 4827
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1298.867 ; gain = 124.527 ; free physical = 1111 ; free virtual = 4827
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1306.871 ; gain = 132.531 ; free physical = 1111 ; free virtual = 4827
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'estado_atual_reg' in module 'controlador'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-5544] ROM "proximo_estado" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "proximo_estado" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'proximo_estado_reg' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/controlador.vhd:64]
+WARNING: [Synth 8-327] inferring latch for variable 'proximo_estado_reg' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/controlador.vhd:64]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    init |                              000 |                              000
+               wait_coin |                              001 |                              001
+                 add_val |                              010 |                              010
+                    disp |                              011 |                              011
+                wait_get |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'estado_atual_reg' using encoding 'sequential' in module 'controlador'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_proximo_estado_reg' [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/controlador.vhd:64]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1314.879 ; gain = 140.539 ; free physical = 1102 ; free virtual = 4818
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      3 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module controlador 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      3 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 3     
+Module registrador 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module somador 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element U0/DATAPATH/tot/sQ_reg was removed.  [/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.srcs/sources_1/new/registrador.vhd:54]
+INFO: [Synth 8-3332] Sequential element (U0/FSM_CTRL/FSM_sequential_proximo_estado_reg[2]) is unused and will be removed from module design_1_maquinaRefri_1_0.
+INFO: [Synth 8-3332] Sequential element (U0/FSM_CTRL/FSM_sequential_proximo_estado_reg[1]) is unused and will be removed from module design_1_maquinaRefri_1_0.
+INFO: [Synth 8-3332] Sequential element (U0/FSM_CTRL/FSM_sequential_proximo_estado_reg[0]) is unused and will be removed from module design_1_maquinaRefri_1_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:34 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 948 ; free virtual = 4668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:34 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 947 ; free virtual = 4668
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:34 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 947 ; free virtual = 4667
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 946 ; free virtual = 4667
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 946 ; free virtual = 4667
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 946 ; free virtual = 4667
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 946 ; free virtual = 4667
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 946 ; free virtual = 4667
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 946 ; free virtual = 4667
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     1|
+|2     |LUT3 |     3|
+|3     |LUT4 |     4|
+|4     |LUT5 |     1|
+|5     |LUT6 |     3|
+|6     |FDCE |     3|
+|7     |FDRE |     4|
++------+-----+------+
+
+Report Instance Areas: 
++------+-------------+-------------+------+
+|      |Instance     |Module       |Cells |
++------+-------------+-------------+------+
+|1     |top          |             |    19|
+|2     |  U0         |maquinaRefri |    19|
+|3     |    DATAPATH |datapath     |    10|
+|4     |      tot    |registrador  |    10|
+|5     |    FSM_CTRL |controlador  |     9|
++------+-------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 946 ; free virtual = 4667
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.254 ; gain = 259.914 ; free physical = 946 ; free virtual = 4667
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.262 ; gain = 259.914 ; free physical = 946 ; free virtual = 4667
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:38 . Memory (MB): peak = 1537.266 ; gain = 376.289 ; free physical = 912 ; free virtual = 4633
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint '/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.runs/design_1_maquinaRefri_1_0_synth_1/design_1_maquinaRefri_1_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1983.785 ; gain = 446.520 ; free physical = 548 ; free virtual = 4269
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/alan/Vivado/scratch/maquinaRefrigerante/maquinaRefrigerante/maquinaRefrigerante.runs/design_1_maquinaRefri_1_0_synth_1/design_1_maquinaRefri_1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_maquinaRefri_1_0_utilization_synth.rpt -pb design_1_maquinaRefri_1_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1983.785 ; gain = 0.000 ; free physical = 546 ; free virtual = 4266
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 15 11:58:08 2019...
