@@ -1,1 +1,1 @@
-Maquina de Refrigerande em VHDL (zybe)
+Maquina de Refrigerande em VHDL. (zybe)
