@@ -1,7 +1,0 @@
-Running: xsim.dir/maquinaRefri_behav/xsimk -simmode gui -wdb maquinaRefri_behav.wdb -simrunnum 0 -socket 45335
-Design successfully loaded
-Design Loading Memory Usage: 46980 KB (Peak: 47100 KB)
-Design Loading CPU Usage: 20 ms
-Simulation completed
-Simulation Memory Usage: 136916 KB (Peak: 194252 KB)
-Simulation CPU Usage: 20 ms

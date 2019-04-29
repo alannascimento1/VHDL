@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../maquinaRefrigerante.srcs/sources_1/new/comp_lt.vhd" \
-"../../../../maquinaRefrigerante.srcs/sources_1/new/tbRegistrador.vhd" \
-
-# Do not sort compile order
-nosort
