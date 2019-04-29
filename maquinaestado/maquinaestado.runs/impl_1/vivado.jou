@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Apr 16 18:43:58 2019
+# Process ID: 29939
+# Current directory: /home/alan/Vivado/scratch/maquinaestado/maquinaestado.runs/impl_1
+# Command line: vivado -log maq.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source maq.tcl -notrace
+# Log file: /home/alan/Vivado/scratch/maquinaestado/maquinaestado.runs/impl_1/maq.vdi
+# Journal file: /home/alan/Vivado/scratch/maquinaestado/maquinaestado.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source maq.tcl -notrace
